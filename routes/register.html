@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Easy-Vote - Registration</title>
+        <link rel="stylesheet" href="../css/stylesheet.css">
+    </head>
+    
+    <body style="background-image: url('../regi_vote.jpg'); background-repeat: no-repeat; background-size: cover;">
+        <center>
+        <div id="headerSection">   
+            <h1>VOTER REGISTRATION</h1>
+        </div>
+
+        <div>
+            <form action="../api/register.php" method="POST" enctype="multipart/form-data">
+                <input id="frminpnew" title="Name must be in capital letter" type="text" name="name" placeholder="Enter Username:" onkeypress="return(event.charCode > 64 && event.charCode < 91) || (event.charCode==32)"required>
+                <input id="frminpnew" title="The identification number must be identical to the number issued by the institution" type="text" name="id" placeholder="Enter Voter UID:" required>
+                <p id="instr"><b>* </b>Voter's name must be in capital letters.</p>
+                <p id="instr"><b>* </b>UID (or Unique Identification) Number is the roll number / id provided by the institution.</p>
+
+                <input id="frminp2" title="Name must be in capital letter" type="text" name="father" placeholder="Enter Father's Name / Husband's Name:" onkeypress="return(event.charCode > 64 && event.charCode < 91) || (event.charCode==32)"required><br>
+                <p id="instr"><b>* </b>Father's / Husband's name must be in capital letters.</p>
+
+
+
+
+                <input id="frminpnew" title="Mobile number must be 10 digits without country code" type="number" name="mobile" placeholder="Enter Mobile number:"required>
+                <input id="frminpnew" title="Candidate must be above 18 years to cast vote" type="number" name="age" placeholder="Enter Age:"required><br>
+                <p id="instr"><b>*</b> Voter must be at least 18 year old to be able to register.</p>
+
+                <div id="imagepart">
+                    Select gender: <select id="frminp1" name="gender">
+                        <option id="frminpnew" value="1">-select-</option>
+                        <option id="frminpnew" value="2">Male</option>
+                        <option id="frminpnew" value="3">Female</option>
+                        <option id="frminpnew" value="4">Others</option>
+                    </select>
+                </div>
+
+                <input id="frminp2" type="text" name="address" placeholder="Enter Voter's Address:"required><br>
+                <input id="frminpnew" type="text" name="state" placeholder="Enter State:"required onkeypress="return(event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)"required>
+                <input id="frminpnew" type="number" name="pincode" placeholder="Enter Pincode:"required><br>
+                <p id="instr"><b>*</b> The address must be the current residing address of the voter.</p>
+
+                <input id="frminpnew" title="Password must be 8-15 characters long and contain: 1 number, 1 uppercase and 1 lowercase character" type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,15}" placeholder="Enter password:"required>
+                <input id="frminpnew" title="This must be similar to the former password" type="password" name="cpassword" placeholder="Confirm password:"><br>
+                <pre id="instrpre"><b>*</b> The password must be 8-15 characters long and should contain:
+            1. at least one(1) uppercase letter
+            2. at least one(1) lowercase letter
+            3. at least one(1) number</pre>
+
+                <div id="imagepart">
+                    Upload voter photo: <input id="photoinp" type="file" name="photo" multiple accept="image/*" required>
+                </div>
+                <p id="instr"><b>*</b> The image size must be within 1MB.</p>
+                
+                <br><button id="submitloginbtn" type="submit">Register as a Voter</button><br><br><br>
+            </form>
+        </div>
+        <a href="../"><button id="loginbtn">Back to Homepage</button></a><br><br>
+        </center>
+    </body>
+</html>

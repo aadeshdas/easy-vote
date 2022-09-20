@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#bodySection{
+    font-size: 20px;
+    width: 60%;
+    padding: 20px;
+    float: right;
+    margin-bottom: 20px;
+    height: 460px;
+}
+
+#loginbtnh{
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    font-size: 25px;
+    background-color: #3498db;
+    color: white;
+    width: 50%;
+    height: 10%;
+    padding: 10px;
+    margin: 7px;
+    box-shadow: 0px 5px 10px grey;
+}
+
+#headerSection{
+    color: #002e3a;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#frminp{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e0eeff;;
+    color: rgba(0, 0, 0, 0.500);
+    font-size: 18;
+    border: 0px;
+    width: 75%;
+    padding: 20px;
+    margin: 5px;
+    box-shadow: 0px 3px 5px grey;
+}
+
+#instr{
+    color: rgb(175, 0, 0);
+    text-align: justify;
+    width: 60%;
+}
+
+#instrpre{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(175, 0, 0);
+    text-align: justify;
+    width: 60%;
+}
+
+
+#frminpnew{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e0eeff;
+    color: rgba(0, 0, 0, 0.500);
+    font-size: 18;
+    border: 0px;
+    width: 35%;
+    padding: 20px;
+    margin: 5px;
+    box-shadow: 0px 3px 5px grey;
+}
+
+#frminp2{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e0eeff;
+    color: rgba(0, 0, 0, 0.500);
+    font-size: 18;
+    border: 0px;
+    width: 71%;
+    padding: 20px;
+    margin: 5px;
+    box-shadow: 0px 3px 5px grey;
+}
+
+#frminp1{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e0eeff;;
+    padding-inline-start: 10px;
+    color: rgba(0, 0, 0, 0.500);
+    font-size: 18;
+    border: 0px;
+}
+
+#loginbtn1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    background-color: #3498db;
+    width: 75%;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0px 5px 10px grey;
+}
+
+#loginbtn{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    background-color: #3498db;
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0px 5px 10px grey;
+}
+
+#loginbtnadm{
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    font-size: 20px;
+    border: 0px;
+    background-color: rgb(109, 195, 218);
+    color: #001e31;
+    padding: 5px;
+    margin: 5px;
+}
+
+#loginbtnadm2{
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    font-size: 20px;
+    border: 0px;
+    background-color: rgb(109, 195, 218);
+    color: #001e31;
+    padding: 5px;
+    margin: 5px;
+}
+
+#note{
+    color: red;    
+}
+
+#submitloginbtn{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    background-color: #3498db;
+    width: 71%;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0px 5px 10px grey;
+}
+
+#links{
+    font-size: 16px;
+}
+
+#imagepart{
+    border: 0px;
+    width: 68%;
+    font-size: 18;
+    padding: 20px;
+    background-color: #e0eeff;;
+    color: rgba(0, 0, 0, 0.750);
+    margin: 10px;
+    box-shadow: 0px 3px 5px grey;
+}
+
+#photoinp{
+    font-size: 18;
+    color: rgba(0, 0, 0, 0.750);
+    padding-inline-start: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
